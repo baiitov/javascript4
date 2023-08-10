@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	/* background: blue; */
+}
+.background {
+}
+.sayHello {
+	text-align: center;
+	color: #f90a0a;
+	font-size: 3rem;
+}
+/* 1rem === 16px */
+#myVideo{
+    width: 100vw;
+}

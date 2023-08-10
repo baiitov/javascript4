@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+	border-radius: 50%;
+	width: 60px;
+}
+.header {
+	background-color: rgb(28, 28, 181);
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0;
+}
+.background_wallpaper {
+	background-image: url('https://marketplace.canva.com/EAE-xnqWvJk/1/0/1600w/canva-retro-smoke-and-round-light-desktop-wallpapers-JLofAI27pCg.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: -1;
+}
+.navigation {
+	display: inline-block;
+}
+.ul_list {
+	margin-left: 350px;
+	text-align: right;
+	display: inline-block;
+}
+.list_item {
+	display: inline-block;
+	margin-left: 50px;
+}
+.list_item a {
+	color: white;
+	text-decoration: none;
+}
+.list_item a:hover {
+	text-decoration: underline;
+	color: darkgrey;
+}
+.btn {
+	padding: 10px 30px;
+	background-color: brown;
+	color: white;
+	border-radius: 7px;
+	border: none;
+	margin-left: 60px;
+}
+.btn:hover {
+	background-color: red;
+}
+.btn:active {
+	background-color: green;
+}
+
+/* blocks */
+.block1 {
+	width: 900px;
+	height: 200px;
+	background-color: rgb(3, 220, 235);
+	border: 5px solid rgb(0, 133, 163);
+	padding: 30px;
+	margin-top: 90px;
+	position: relative;
+	z-index: -1;
+}
+.block1 h3 {
+	font-weight: bold;
+}
+.block1 p {
+	color: gray;
+	font-size: 20px;
+}
+.block1 div {
+	width: 700px;
+	height: 50px;
+	background-color: #fff;
+	border: 3px solid rgb(0, 133, 163);
+	color: rgb(3, 255, 32);
+	padding: 10px;
+	margin-top: 29px;
+}
+
+/* block 2  */
+
+.block2 {
+	width: 900px;
+	height: 200px;
+	background-color: rgb(235, 100, 3);
+	border: 5px solid rgb(163, 0, 0);
+	padding: 30px;
+	margin-top: 40px;
+	margin-left: 420px;
+}
+.block2 h3 {
+	font-weight: bold;
+	text-align: right;
+}
+.block2 p {
+	font-size: 20px;
+	color: white;
+	text-align: right;
+}
+.block2 div {
+	width: 700px;
+	height: 50px;
+	background-color: #fff;
+	border: 3px solid rgb(163, 0, 0);
+	color: rgb(254, 176, 176);
+	padding: 10px;
+	text-align: right;
+	margin-left: 120px;
+	margin-top: 29px;
+}
+/* block 3 */
+.block3 {
+	width: 900px;
+	height: 200px;
+	background-color: rgb(42, 125, 0);
+	border: 5px solid rgb(10, 89, 3);
+	padding: 30px;
+	margin-top: 40px;
+}
+.block3 h3 {
+	font-weight: bold;
+}
+.block3 p {
+	color: rgb(96, 255, 5);
+	font-size: 20px;
+}
+.block3 div {
+	width: 700px;
+	height: 50px;
+	background-color: #fff;
+	border: 3px solid rgb(36, 96, 4);
+	color: rgb(3, 255, 32);
+	padding: 10px;
+	margin-top: 29px;
+}
+.click {
+	padding: 10px 20px;
+	color: #fff;
+	background-color: rgb(187, 95, 95);
+	border: none;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
